@@ -11,3 +11,30 @@
 .programmer{
     transform: translateY(-30%);
 }
+.text-limit{
+    max-width: 500px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 650px){
+    .arar-pic{
+        margin-top: 3rem;
+    }
+    /* .right-content{
+        margin-top: 2rem;
+    } */
+    /* .footer-content{
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    } */
+    .main-content{
+        flex-direction: column;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+ 
+}
